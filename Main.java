@@ -5,9 +5,15 @@ class Main {
       {
         for(int y=1;y<=4;y++)
       {
+        if(i>1&&i<4&&y>1&&y<4) 
+        {
+        System.out.print(" ");
+        }
+        else
         System.out.print(znak);
       }
         System.out.println();
       }
+    
   }
 }
